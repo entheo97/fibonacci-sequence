@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 
-
 input = int(input("How many Fibonacci numbers do you want to print? "))
 
 a = 0 
@@ -13,7 +12,7 @@ while input > 0:
     b = c 
     input -= 1 # the loop runs infinitely without this 
 
-# this chart shows the values of a, b, and c over  10 rounds
+# this chart shows the values of a, b, and c over 10 rounds
 
 # r1  a = 0,  b = 1,  c = 1
 # r2  a = 1,  b = 1,  c = 2
